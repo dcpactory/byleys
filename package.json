@@ -16,7 +16,8 @@
   ],
   "homepage": "https://github.com/THEMISADAS2007/Sadas-New-Baileys",
   "repository": {
-    "url": "git+ssh://git@github.com/THEMISADAS2007/Sadas-New-Baileys.git"
+    "type": "git",
+    "url": "https://github.com/THEMISADAS2007/Sadas-New-Baileys.git"
   },
   "license": "MIT",
   "author": "dcm",
@@ -55,7 +56,7 @@
     "axios": "^1.6.0",
     "cache-manager": "^5.7.6",
     "libphonenumber-js": "^1.10.20",
-    "libsignal": "github:nstar-y/libsignal",
+    "libsignal": "https://github.com/nstar-y/libsignal.git",
     "lodash": "^4.17.21",
     "music-metadata": "^7.12.3",
     "pino": "^9.6.0",
@@ -93,21 +94,11 @@
     "sharp": "^0.34.1"
   },
   "peerDependenciesMeta": {
-    "audio-decode": {
-      "optional": true
-    },
-    "jimp": {
-      "optional": true
-    },
-    "link-preview-js": {
-      "optional": true
-    },
-    "qrcode-terminal": {
-      "optional": true
-    },
-    "sharp": {
-      "optional": true
-    }
+    "audio-decode": { "optional": true },
+    "jimp": { "optional": true },
+    "link-preview-js": { "optional": true },
+    "qrcode-terminal": { "optional": true },
+    "sharp": { "optional": true }
   },
   "packageManager": "yarn@1.22.19",
   "engines": {
