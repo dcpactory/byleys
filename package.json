@@ -47,6 +47,10 @@
     "release": "release-it",
     "test": "jest"
   },
+"engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@cacheable/node-cache": "^1.4.0",
